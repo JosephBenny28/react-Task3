@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navs{
+  background-color: grey;
+ 
+}
+
+.nav-item a{
+  color: white;
+}
+.caro img{
+  height: 92vh;
+  width: 100%;
+ 
+}
+
+/*places*/
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-gap: 5px;
+  max-width: 100%; /* Adjust this width as needed */
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.list ul {
+  
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(0, 128, 255);
+  font-weight: 700;
+
+}
+.list li a{
+  text-decoration: none;
+
+}
+.places{
+height: 400px;
+}
+.places p{
+  font-size: 18px;
+  text-indent: 50px;
+  row-gap: 10px;
+}
+.imggs-main{
+  max-width: 100%;
+  overflow: hidden;
+}
+.imggs{
+  width: 100%;
+  height: auto;
+}
+
+.place-visit-list{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px!important;
+}
+.card img{
+  object-fit:fill;
+}
