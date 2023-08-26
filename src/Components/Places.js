@@ -31,7 +31,7 @@ export default function Places() {
                                         const visit = pla[key];
                                         return (
                                             <div key={key}>
-                                                {index === 0 && <h1>Must visit places{visit['vis-name']}</h1>}
+                                                {/* {index === 0 && <h1>Must visit places{visit['vis-name']}</h1>} */}
                                                 <Card style={{ width: '17rem', height: '26rem' }}>
                                                     <Card.Img variant="top" src={require(`./assets/${visit['vis-img']}`)} style={{ height: '13rem' }} />
                                                     <Card.Body >
